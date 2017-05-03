@@ -28,7 +28,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnClickListener,
         OnItemSelectedListener, OnItemClickListener {
 
-
+    private static final String TAG = "MainActivity";
     private ListView list;
     private ViewAdapter viewAdapter;
     private int selectedIndex = -1;
